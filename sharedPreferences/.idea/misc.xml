@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Projects/SU22/PRM/app/src/main/res/layout/activity_main.xml" value="0.3333333333333333" />
+        <entry key="..\:/Projects/SU22/PRM/style-theme/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2405" />
+        <entry key="..\:/Projects/SU22/PRM/style-theme/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2405" />
+        <entry key="..\:/Projects/SU22/PRM/style-theme/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Projects/SU22/PRM/style-theme/app/src/main/res/layout/activity_main.xml" value="0.3333333333333333" />
+        <entry key="..\:/Projects/SU22/PRM/style-theme/app/src/main/res/layout/activity_menu.xml" value="0.4296875" />
+        <entry key="..\:/Projects/SU22/PRM/style-theme/app/src/main/res/layout/activity_second.xml" value="0.20896656534954408" />
+        <entry key="..\:/Projects/SU22/PRM/style-theme/app/src/main/res/layout/spinner_item.xml" value="0.20212765957446807" />
+        <entry key="..\:/Users/ADMIN/Documents/PRM/sharedPreferences/app/src/main/res/layout/activity_home.xml" value="0.22826086956521738" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/manHinh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnFunc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/permiss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="246dp"
+        android:text="Permission"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Deny"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="6dp"
+        android:text="Deny"
+        app:layout_constraintEnd_toEndOf="@+id/permiss"
+        app:layout_constraintTop_toBottomOf="@+id/permiss" />
+
+    <Button
+        android:id="@+id/btnSetting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="51dp"
+        android:layout_marginEnd="6dp"
+        android:text="Setting"
+        app:layout_constraintEnd_toEndOf="@+id/Deny"
+        app:layout_constraintTop_toBottomOf="@+id/Deny" />
+
+    <Button
+        android:id="@+id/btn_Notifi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="52dp"
+        android:text="Notification"
+        app:layout_constraintBottom_toTopOf="@+id/permiss"
+        app:layout_constraintStart_toStartOf="@+id/permiss" />
+</android.support.constraint.ConstraintLayout>

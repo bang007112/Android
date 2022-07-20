@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+
+        android:background="#3b5998"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+
+        <EditText
+            android:id="@+id/txtUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="#d3d3d3"
+            android:hint="@string/text_username"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#d3d3d3" />
+
+        <EditText
+            android:id="@+id/txtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="#d3d3d3"
+            android:hint="@string/text_password"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#d3d3d3" />
+
+        <Button
+            android:id="@+id/btnSummit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="#3D59FB"
+            android:onClick="Login"
+            android:padding="10dp"
+            android:text="@string/btn_login"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtSignUp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/text_signUp"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/txtForgotPassword"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:text="@string/text_forget_password"
+                    android:textColor="#ffffff" />
+            </LinearLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

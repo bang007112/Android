@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DemoApi</string>
+    <string name="text_username">Username</string>
+    <string name="text_password">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="text_signUp">Sign up</string>
+    <string name="text_forget_password">Forget password</string>
+    <item name="linearLayout" type="id" />
+</resources>
